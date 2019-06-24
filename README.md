@@ -8,7 +8,7 @@
 
 ## Simulate Scenarios:
 ### 1. Parking:
-* **1.** System will generate a random parking map, holes, vechicles, and pedestrians:
+* **1-1.** System will generate a random parking map, holes, vechicles, and pedestrians:
   * **PASS** standard:
     * Not hitting vechicles
     * Not hitting pedestrians
