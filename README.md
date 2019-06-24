@@ -8,13 +8,13 @@
 
 ## Simulate Scenarios:
 ### 1. Parking:
-**1.** System will generate a random parking map, holes, vechicles, and pedestrians:
-**PASS** standard:
-*       Not hitting vechicles
-*       Not hitting pedestrians
-*       Not hitting walls
-*       Not dropping to holes
-*       Successfully detected available parking space
-*       Successfully parking to empty space
+* **1.** System will generate a random parking map, holes, vechicles, and pedestrians:
+  * **PASS** standard:
+    * Not hitting vechicles
+    * Not hitting pedestrians
+    * Not hitting walls
+    * Not dropping to holes
+    * Successfully detected available parking space
+    * Successfully parking to empty space
 
 
