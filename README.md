@@ -1,12 +1,12 @@
-**#Project Name: Self-driving Car Simulator**
+#**Project Name: Self-driving Car Simulator**
 
-**## Purpose:**
+##**Purpose**:
   The purpose of this project is creating a simulator framework to help testing autopilot software
 
-**## Concepts**:
+##**Concepts**:
   This simulator is going to simulate real world traffic scenarios with trained nuronal networks. There are going to have **front end GUI** (build by Unity3D), **back end controller** (test autopilot software). Detail design please check [Simulator Design Concept](#Simulator-Design-Concept)
 
-**## Simulate Scenarios**:
+##**Simulate Scenarios**:
   ### 1. Parking:
   * **1-1.** System will generate a random parking map, holes, vechicles, and pedestrians by the Parking Simulator Nuronal Network:
     * **PASS** standard:
@@ -18,7 +18,7 @@
       * Successfully parking to empty space
 
 
-**## Simulator Design Concepts**:
+##**Simulator Design Concepts**:
   ### Parking Simulator Nuronal Network:
   * **Component**:
     * **Map Generator**: fectch pre-build maps from database, and created maps can be uploaded/downloaded to/from database. Maps can be randomly picked by the Map Generator or be manually picked by tester.
