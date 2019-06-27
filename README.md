@@ -24,6 +24,7 @@ This simulator is going to simulate real world traffic scenarios with trained nu
   * **Map Generator**: fectch pre-build maps from database, and created maps can be uploaded/downloaded to/from database. Maps can be randomly picked by the Map Generator or be manually picked by tester.
   * **Vechicle Generator**: multiple Vechicles will be generated randomly with 2 types of states: **Parking** state and **Driving** state:
     * **Parking** state: Vechicles are pakring at parking lots properly (taken 1 space) or inproperly (taken 2 or more space)
-    * **Driving** state: 
+    * **Driving** state: Simulating Vechicles driving with: **1** unified installed test autopilot software, **2** with different autopilot sofware installed (could be building autopilot software or third party autopilot software)
+  * **Pedestrians Generator**: 
 
 
