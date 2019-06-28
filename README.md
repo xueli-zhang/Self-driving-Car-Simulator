@@ -1,3 +1,5 @@
+
+![X-Drive](./md_source/cover_img.png)
 # **Project Name: Self-driving Car Simulator**
 
 ## **Purpose**:
