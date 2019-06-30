@@ -27,4 +27,7 @@
      * **Vechicle Generator**: multiple Vechicles will be generated randomly with 2 types of states: **Parking** state and **Driving** state:
        * **Parking** state: Vechicles are pakring at parking lots properly (taken 1 space) or inproperly (taken 2 or more space)
        * **Driving** state: Simulating Vechicles driving with: 1 unified installed test autopilot software, 2 with different autopilot sofware installed (could be build-in autopilot software or third party autopilot software), will also randomly generate some cars that illegal driving to check if autopilot could deal with normal state and emergency state.
-     * **Pedestrians Generator**: pedestrians will be generated with 3 types: 
+     * **Pedestrians Generator**: pedestrians will be generated with 3 state: **Stop**, **Legally Walking** and **Illegally Walking**:
+       * **Stop**: Pedestrians idle on some random place.
+       * **Legally Walking**: Pedestrains normally walking on parking lots.
+       * **Illegally Walking**: Pedestrains walking on parking lots with some "unexpected" behaviors.
