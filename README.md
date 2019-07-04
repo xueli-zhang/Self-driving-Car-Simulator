@@ -20,7 +20,7 @@
        * Successfully parking to empty space
 
 ## **Simulator Design Concepts**:
-   ### Parking Simulator Nuronal Network:
+   ### Parking Simulator Neural Network:
    * **Component**:
      * **Map Generator**: fectch pre-build maps from database, and created maps can be uploaded/downloaded to/from database. Maps can be randomly picked by the Map Generator or be manually picked by tester.
      * **Vechicle Generator**: multiple Vechicles will be generated randomly with 2 types of states: **Parking** state and **Driving** state:
@@ -32,3 +32,5 @@
        * **Illegally Walking**: Pedestrains walking on parking lots with some "unexpected" behaviors.
    * **Implementation**:
      * **Enviroment and Language**: 
+      * **Neural Network**: A default autopilot neural network is implemented using tensorflow (python) library.
+      * **GUI**:
