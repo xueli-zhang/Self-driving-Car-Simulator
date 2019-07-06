@@ -33,5 +33,5 @@
        * **Illegally Walking**: Pedestrains walking on parking lots with some "unexpected" behaviors.
    * **Implementation**:
      * **Enviroment and Language**: 
-      * **Neural Network**: A default autopilot neural network is implemented using tensorflow (python) library.
-      * **GUI**:
+      * **Default Autopilot Neural Network**: A default autopilot neural network is implemented using tensorflow (python) library.
+      * **GUI**: 
