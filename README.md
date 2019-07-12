@@ -33,4 +33,4 @@
    * **Implementation**:
      * **Enviroment and Language**: 
       * **Default Autopilot Neural Network**: A default autopilot neural network is implemented using tensorflow (python) library.
-      * **GUI**: 
+      * **GUI**: Unity3D Web, takes inputs such as press gas with strength, turn left with degrees, turn right with degrees, and direction switch (go forwards: D or backwards: R)
