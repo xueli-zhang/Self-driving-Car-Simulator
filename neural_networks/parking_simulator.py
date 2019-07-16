@@ -1,11 +1,9 @@
-#This class is to construct a neural_networks for Praking simulator
+#This class is to construct some random maps and setups for testing AV
 
 class Parking_simulator:
     
     def __init__(self, map):
         self.map = map
-        self.speed = 0
-        self.angle = 0
-        self.acc = 0
 
         
+
