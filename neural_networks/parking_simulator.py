@@ -2,5 +2,10 @@
 
 class Parking_simulator:
     
-    def __init__(self):
-        pass
+    def __init__(self, map):
+        self.map = map
+        self.speed = 0
+        self.angle = 0
+        self.acc = 0
+
+        
