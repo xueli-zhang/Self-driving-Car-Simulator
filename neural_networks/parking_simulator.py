@@ -1,11 +1,26 @@
 #This class is to construct some random maps and setups for testing AV
+import random
+
 
 class Parking_simulator:
     
-    def __init__(self, map):
+    def __init__(self, map=[]):
         self.map = map
 
     #This function is to generate pedestrians with random number, random position and random states.
-    def generate_pedes(self):
-        numOfPed = 0
+    def generate_pedes(self, min = 0, max = 10):
 
+        numOfPed = random.randint(min, max)
+
+        print("there are "+str(numOfPed)+" pedestrians generated. ")
+
+        return
+
+
+def main():
+    parkSim = Parking_simulator() 
+
+    parkSim.generate_pedes(10, 20)
+
+if __name__ == "__main__":
+    main()
