@@ -12,9 +12,13 @@ class Parking_simulator:
 
         numOfPed = random.randint(min, max)
 
+        pedestrians = []
+
         print("there are "+str(numOfPed)+" pedestrians generated. ")
 
         return
+
+    
 
 
 def main():
