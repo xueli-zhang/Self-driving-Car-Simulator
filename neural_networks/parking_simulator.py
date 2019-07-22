@@ -1,5 +1,6 @@
 #This class is to construct some random maps and setups for testing AV
 import random
+import pedestrians
 
 
 class Parking_simulator:
@@ -12,9 +13,16 @@ class Parking_simulator:
 
         numOfPed = random.randint(min, max)
 
-        pedestrians = []
+        peds = []
 
-        print("there are "+str(numOfPed)+" pedestrians generated. ")
+        print("generating "+str(numOfPed)+" pedestrians. ")
+
+        for _ in range(numOfPed):
+            peds.append(pedestrians.Pedestrians())
+
+        
+        print("there are "+str(len(peds))+" pedestrians generated. ")
+
 
         return
 
