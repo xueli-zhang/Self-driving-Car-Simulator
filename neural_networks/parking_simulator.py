@@ -18,7 +18,7 @@ class Parking_simulator:
         print("generating "+str(numOfPed)+" pedestrians. ")
 
         for _ in range(numOfPed):
-            peds.append(pedestrians.Pedestrians())
+            peds.append(pedestrians.Pedestrians(random.randint(0,2)))
 
         
         print("there are "+str(len(peds))+" pedestrians generated. ")
