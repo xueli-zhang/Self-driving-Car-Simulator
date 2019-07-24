@@ -19,4 +19,17 @@ class Pedestrians:
         else:
             print ("Error: Unexpected behavior type not 0 or 1")
 
+    #this function is to control pedestrains act normally. Define a set of normal behaviors: 1. avoding car when it detected...
+    #return a basic behavior at a call: move_forward, turn #degrees, move_backward...
+    #using the same neural networks of abnormal_pedetrains_ai, but just trained with different behavior set
+    def normal_pedetrains_ai(self):
+        pass
+
+    #this function is to control pedestrians act abnomarlly. Define a set of abnormal behaviors: 1. move to the front of the car to stop car moving...
+    #return a basic behavior at a call: move_forward, turn #degrees, move_backward...
+    #using the same neural networks of normal_pedetrains_ai, but just trained with different behavior set
+    def abnormal_pedetrains_ai(self):
+        pass
+
+
     
