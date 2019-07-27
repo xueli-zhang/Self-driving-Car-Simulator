@@ -19,6 +19,10 @@ class Pedestrians:
         else:
             print ("Error: Unexpected behavior type not 0 or 1")
 
+    #this function is to load training data for pedestrains neural network to train pedestrains with 0 normal behavior data or 1 abnormal behavior data
+    #no return
+    def loading_pede_train_data(self, type=0):
+
     #this function is to control pedestrains act normally. Define a set of normal behaviors: 1. avoding car when it detected...
     #return a basic behavior at a call: move_forward, turn #degrees, move_backward...
     #using the same neural networks of abnormal_pedetrains_ai, but just trained with different behavior set
