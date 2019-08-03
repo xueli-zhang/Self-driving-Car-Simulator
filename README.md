@@ -19,7 +19,6 @@
        * Successfully detected available parking space
        * Successfully parking to empty space
 
-
 ## **Simulator Design Concepts**:
    ### Parking Simulator Neural Network:
    * **Component**:
