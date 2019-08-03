@@ -2,7 +2,7 @@
 import parking_helper
 
 pede_id = 0000000
-
+training_data_path = "./ped/park_sim/ped_training.txt"
 
 class Pedestrians:
 
@@ -24,7 +24,7 @@ class Pedestrians:
     #this function is to load training data for pedestrains neural network to train pedestrains with 0 normal behavior data or 1 abnormal behavior data
     #no return
     def loading_pede_train_data(self, type=0):
-        
+        parking_helper.loading_training_data(training_data_path)
 
     #this function is to control pedestrains act normally. Define a set of normal behaviors: 1. avoding car when it detected...
     #return a basic behavior at a call: move_forward, turn #degrees, move_backward...
