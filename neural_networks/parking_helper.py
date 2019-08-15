@@ -8,7 +8,10 @@ def loading_training_data(path):
 
     for line in lines:
         print(line)
-
     
 
     return training_data
+
+def loading_maps_date(path):
+    
+    pass
