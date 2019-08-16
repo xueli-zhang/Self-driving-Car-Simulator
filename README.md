@@ -20,6 +20,9 @@
        * Successfully parking to empty space
 
 ## **Simulator Design Concepts**:
+   ### Data Design Concepts:
+   * **Map Data**: Maps data would be a 2D array contains an enviourment object in each cell: "t" stands as tree, "b" stands as build, and each object contains hight, width and angle and some other features, just the same as HD detail maps. **Test object 1**:Autoplot software should be able to locate it self as the right location
+
    ### Parking Simulator Neural Network:
    * **Component**:
      * **Map Generator**: fectch pre-build maps from database, and created maps can be uploaded/downloaded to/from database. Maps can be randomly picked by the Map Generator or be manually picked by tester.
