@@ -1,0 +1,7 @@
+map01=[
+    [t, r, r, t, b, b, b]
+    [b, r, t, r, b, r, t]
+    [t, r, t, r, t, r, r]
+    [r, r, r, r, r, r, r]
+    [t, r, t, r, b, b, r]
+]
