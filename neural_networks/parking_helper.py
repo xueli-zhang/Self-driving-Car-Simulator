@@ -1,4 +1,4 @@
-from objects.static_object.py import static_object
+import objects.static_object as static_object
 #This file contains helper functions that will be used in neural networks
 def loading_training_data(path):
     training_data = []
@@ -17,6 +17,7 @@ def loading_training_data(path):
 def loading_maps_date(path):
     
     maps = []
+    new_object = None
 
     f = open(path, "r")
 
@@ -30,3 +31,9 @@ def loading_maps_date(path):
     
 
     return maps
+
+def main():
+    loading_maps_date("./maps/map01.txt")
+
+if __name__ == "__main__":
+    main()
