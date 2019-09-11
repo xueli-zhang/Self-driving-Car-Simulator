@@ -1,6 +1,6 @@
 #This class is for construct static objects that correspoding to the maps.
 
-class Static_Object:
+class Static_object:
 
     def __init__(self, image_path, object_name, height, width, angle):
 
