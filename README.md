@@ -23,6 +23,8 @@
    ### Data Design Concepts:
    * **Map Data**: Maps data would be a 2D array contains an enviourment object in each cell, such as "t" stands as tree, "b" stands as build, and each object contains hight, width and angle and some other features, just the same as HD detail maps. **Test object 1**:Autoplot software should be able to locate it self as the right location. 
    * **Training Data**: Training data would be a 2D array corresponding to 2D map array, and each cell contains a behaviour object, such as "move forward", "move backward", "turn num degrees", each behavior object contains degrees, speed, etc attributs. **Test object 2**:With corresponding location, will the car act proper behavior?
+   * **Implementation**:
+     * **Map**: Map data will be a json file for each map
    
    ### Parking Simulator Neural Network:
    * **Component**:
